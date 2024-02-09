@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar" id="mynav">
+        <a href="#" class="active">Home</a>
+        <a href="food_item.html">Foods</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="javascript:void(0);" style="font-size: 25px;" class="icon" onclick="myfunction()"> &#9776;</a>
+    </div>
+        <div class="main">
+            <div class="box1">
+                <h3>The Bakery Shop</h3>
+                <h5>The new one from Gampola</h5>
+             <a href="https://web.facebook.com/lkwaran.waran/friends_all" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        <div class="box2">
+            <img src="images/items.jpg">
+        </div>
+    </div>
+    <script>
+        function myfunction() {
+            var show = document.getElementById("mynav");
+            if(show.className === "navbar"){
+                show.className += " responsive";
+            }
+            else{
+                show.className = "navbar";
+            }
+        }
+    </script>
+</body>
+</html>

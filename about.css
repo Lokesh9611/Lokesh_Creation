@@ -1,0 +1,52 @@
+img{
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+img:hover{
+    transform: scale(1.2,1.2);
+}
+.content{
+    margin-top: 20px;
+    text-align: center;
+    border: solid gainsboro 4px;
+    background-color: azure;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.num, .btn{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+.btn{
+    cursor: pointer;
+    width: 120px;
+    background-color: cadetblue;
+}
+.btn:hover{
+    transition: 0.3s;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+.rate{
+    color: red;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    font-size: 25px;
+
+}
